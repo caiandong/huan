@@ -35,9 +35,6 @@ li{
 	-webkit-transform:rotateX(13deg);
 	-webkit-animation:move 5s linear infinite;
 }
-#music {
-	display: none;
-}
 .minbox{
 	width:100px;
 	height:100px;
