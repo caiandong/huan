@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <script src="js/zepto.js"></script>
+    <script src="js/fx.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/myindex.js"></script>
+  </head>
+  <body>
+    <audio
+      controls="controls"
+      loop="loop"
+      autoplay="autoplay"
+      src="./music.mp3"
+      preload="load"
+      id="music"
+    >
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="box">
+      <ul class="minbox">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ol class="maxbox">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </div>
+    <script>
+      (function () {
+        var audio = document.getElementsByTagName("li");
+        if (audio) {
+          audio.play();
+        }
+      })();
+    </script>
+  </body>
+</html>
